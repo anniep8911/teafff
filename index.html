@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미니사이트</title>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index_style.css">
+    <link rel="stylesheet" href="css/index_style_tab.css" media="(min-width:0px) and (max-width:780px)">
+    <link rel="stylesheet" href="css/index_style_mob.css" media="(min-width:0px) and (max-width:420px)">
+</head>
+<body>
+    <!-- 헤더 -->
+    <div class="hdrWrap">
+        <div class="header">
+            <div class="logo"></div>
+            <ul class="nav">
+                <li>Home</li>
+                <li>Login</li>
+                <li>Mypage</li>
+                <li><i class="fas fa-hamburger"></i></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 메인 -->
+    <div class="mnWrap">
+        <ul class="mnGroup">
+            <li class="image i1"></li>
+            <li class="image i2"></li>
+            <li class="image i3"></li>
+        </ul>
+        <div class="main">
+            <div class="mnTitleView">
+                <ul class="mnTitleGroup">
+                    <li>오전의 차 한잔</li>
+                    <li>오후의 차 한잔</li>
+                    <li>심야의 차 한잔</li>
+                </ul>
+            </div>
+            <div class="mnNoteView">
+                <ul class="mnNoteGroup">
+                    <li>아침에 일어나면 가벼운 차 한 잔으로 하루를 시작합니다. 향기로운 꽃 차는 심신의 피로를 물리치며 혈액순환을 돕고, 강아지의 아침 산책을 미뤄줍니다. 늦어지는 산책 시간에 불만을 가진 강아지의 표정을 사진으로 남겨보세요. </li>
+                    <li>회사의 점심시간, 힘든 업무를 시작하기 전 동료들과 즐거운 티타임을 가져보세요. 따뜻하게 데운 한약이 상사의 발걸음을 저 멀리로 돌려줄 지도 모릅니다. 실패하더라고 걱정 마세요. 뜨겁게 끓인 물을 손에 든 사람은 바로 당신입니다.</li>
+                    <li>새벽 3시. 잠에서 깨어나 어서 차를 한 잔 마시도록 하세요. 새벽 3시야말로 게살버거와 해초쉐이크를 즐기기에 완벽한 타이밍입니다. 물론, 이 음료에는 다량의 카페인이 함유되어 있으니 다시 깊은 잠에 들기는 힘들 것입니다. </li>
+                </ul>
+            </div>
+            <ul class="paging">
+                <li class="show"></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 컨텐트1 -->
+    <div class="cntWrap">
+        <div class="content cnt01">
+            <div class="header">
+                <h2>기분에 따른 차를 추천</h2>
+                <div class="menu">
+                    <ul class="mnName">
+                        <li><i class="fas fa-surprise"></i></li>
+                        <li><i class="fas fa-meh-rolling-eyes"></i></li>
+                        <li><i class="fas fa-grimace"></i></li>
+                        <li><i class="fas fa-sad-tear"></i></li>
+                    </ul>
+                    <div class="circle"></div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="artGroup">
+                    <div class="article">
+                        <div class="image i1"></div>
+                        <div class="texts">
+                            <h3>버드 로즈티</h3>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="image i2"></div>
+                        <div class="texts">
+                            <h3>로즈 힙 비치</h3>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="image i3"></div>
+                        <div class="texts">
+                            <h3>캐모마일＆허니</h3>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="image i4"></div>
+                        <div class="texts">
+                            <h3>잔디＆ 클로버</h3>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="image i5"></div>
+                        <div class="texts">
+                            <h3>비어</h3>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="image i6"></div>
+                        <div class="texts">
+                            <h3>한방 ＆ 탕약</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btns">
+                <div class="left"><i class="fas fa-caret-left"></i></div>
+                <div class="right"><i class="fas fa-caret-right"></i></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 컨텐트2 -->
+    <div class="cntWrap">
+        <div class="content cnt02">
+            <div class="header">
+                <h2>상품 소개</h2>
+            </div>
+            <div class="section">
+                <div class="article">
+                    <ul class="aco">
+                        <li><h3>캔 오브 알로에</h3></li>
+                        <li class="show"><div class="image i1"></div>
+                        <p>달콤한 맛과 향의 알로에 티는 단종되었으나, 그것을 담고 있던 깔끔한 디자인의 깡통이 아직 남아있습니다. 단종된 알로에 티 패키지와 오로지 단 한 가지의 구성만이 다를 뿐인 상품을 58,000$ → 52,200$ 무려 10%나 할인된 가격에 만나보세요. ※캔 안쪽은 비어있습니다. </p></li>
+                        <li><h3>체험 피크닉</h3></li>
+                        <li>
+                            <div class="image i2"></div>
+                        <p>피크닉을 함께 즐길 사람이 없으신가요? 걱정하지 마세요. 저희 업체에서는 원하시는 분에 한해 무상으로 함께 차를 마실 직원들을 소개시켜드립니다. 체험 비용은 일체 들지 않으며, 오로지 1~5명 분의 식사와 디저트를 준비해주시면 됩니다. ※서비스 직원의 성별,나이,직업,종족,전과기록은 선택할 수 없습니다.</p>
+                        </li>
+                        <li><h3>디스멜 티</h3></li>
+                        <li>
+                            <div class="image i3"></div>
+                        <p>혹시 어떠한 이유로 차의 향기를 느끼지 못하시는 상황인가요? 그런 분들을 위해 저희 업체에서는 '향이 없는 차 세트'를 준비했습니다. 깔끔한 H-O-H 만을 채취하여 우려낸 디스멜 티는 세트당 6입, 단돈 690,000$에 구입하실 수 있습니다.</p>
+                        </li>
+                        <li><h3>크리스마스 티컵 패키지</h3></li>
+                        <li>
+                            <div class="image i4"></div>
+                            <p>12월 기간 한정으로 판매중인 찻잔 패키지입니다. 우아한 청록색의 색감은 순수 100% 아크릴 코팅으로 방수 효과가 뛰어나며 우레탄 재질의 손잡이는 고급 스러운 골드 컬러의 I-pp도료를 사용하여 제작하였습니다.</p>
+                        </li>
+                        <li><h3>쿠키 선물 세트</h3></li>
+                        <li>
+                            <div class="image i5"></div>
+                            <p>마음에 드는 차와 함께 즐기실 수 있는 쿠키 세트입니다. 오트밀과 아몬드가 함유된 고소한 쿠키 세트는 선물용으로도 매우 적합합니다. 땅콩 알러지가 있는 개발자조차 맛보지 못한 달콤함을 느껴보세요.</p>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 컨텐트3 -->
+    <div class="cntWrap">
+        <div class="content cnt03">
+            <div class="header">
+                <h2>소중한 리뷰</h2>
+            </div>
+            <div class="section">
+                <div class="article">
+                    <div class="image i1"></div>
+                    <div class="texts">
+                        <h3><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></h3>
+                        <p>이곳에서 산 버터밀크는 너무 유분 함유량이 많아 마시기에 부담스러워요. 대신 팬케이크 재료로서는 매우 성공적이었습니다.</p>
+                        <div class="sns">
+                            <i class="fab fa-pinterest"></i>
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="image i2"></div>
+                    <div class="texts">
+                        <h3><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa officia quaerat ratione sequi vero quos recusandae est officiis iusto fugiat aliquid, commodi blanditiis obcaecati rerum atque itaque tempora illo labore.</p>
+                        <div class="sns">
+                            <i class="fab fa-pinterest"></i>
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="image i3"></div>
+                    <div class="texts">
+                        <h3><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa officia quaerat ratione sequi vero quos recusandae est officiis iusto fugiat aliquid, commodi blanditiis obcaecati rerum atque itaque tempora illo labore.</p>
+                        <div class="sns">
+                            <i class="fab fa-pinterest"></i>
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="image i4"></div>
+                    <div class="texts">
+                        <h3><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa officia quaerat ratione sequi vero quos recusandae est officiis iusto fugiat aliquid, commodi blanditiis obcaecati rerum atque itaque tempora illo labore.</p>
+                        <div class="sns">
+                            <i class="fab fa-pinterest"></i>
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 푸터 -->
+    <div class="ftrWrap">
+        <div class="footer">
+            <div class="logo"></div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, hic veritatis. Voluptatum nobis ipsa maiores animi fuga ducimus reprehenderit cum nam, id illum quibusdam sed, rem numquam beatae expedita quisquam!</p>
+            <div class="select">
+                <select name="" id="">
+                    <option value="">site menu</option>
+                    <option value="">site menu1</option>
+                    <option value="">site menu2</option>
+                    <option value="">site menu3</option>
+                </select>
+                <div class="sns">
+                    <i class="fab fa-pinterest"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
